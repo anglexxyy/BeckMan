@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wepapi", "wepapi", "{13F4DBC0-F3A2-4006-9401-654CFBB9A7E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "entityframwork", "entityframwork", "{66D9466D-BEE1-48B8-9C8F-0E33208809DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webui", "webui", "{C74FAC8F-5954-4DEA-93F0-3DB305035DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeckMan.WebAPI", "BeckMan.WebAPI\BeckMan.WebAPI.csproj", "{13DC6C99-D866-4988-A6D0-0CD50BF8D628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeckMan.Del", "BeckMan.Del\BeckMan.Del.csproj", "{081E40D2-4760-4A95-9CA6-AD60BBD9A461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13DC6C99-D866-4988-A6D0-0CD50BF8D628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DC6C99-D866-4988-A6D0-0CD50BF8D628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DC6C99-D866-4988-A6D0-0CD50BF8D628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DC6C99-D866-4988-A6D0-0CD50BF8D628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081E40D2-4760-4A95-9CA6-AD60BBD9A461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081E40D2-4760-4A95-9CA6-AD60BBD9A461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081E40D2-4760-4A95-9CA6-AD60BBD9A461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081E40D2-4760-4A95-9CA6-AD60BBD9A461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13DC6C99-D866-4988-A6D0-0CD50BF8D628} = {13F4DBC0-F3A2-4006-9401-654CFBB9A7E1}
+		{081E40D2-4760-4A95-9CA6-AD60BBD9A461} = {66D9466D-BEE1-48B8-9C8F-0E33208809DB}
+	EndGlobalSection
+EndGlobal

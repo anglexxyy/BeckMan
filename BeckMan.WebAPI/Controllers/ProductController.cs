@@ -40,5 +40,9 @@ namespace BeckMan.WebAPI.Controllers
         public void Delete(int id)
         {
         }
+
+        public IEnumerable<Product> Find(Product filter,string order,int from,int limit) {
+            var produts = dbContext.Product.Where(})
+        }
     }
 }

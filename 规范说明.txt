@@ -1,0 +1,14 @@
+1.分页查询的返回结果必须如下：
+{
+	"total":count,
+	"enittys":[
+		{
+			"pro1":value1,
+			"pro2":value2
+		},
+		{
+			"pro1":value1,
+			"pro2":value2
+		}
+	]
+}

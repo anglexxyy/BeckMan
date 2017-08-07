@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeckMan.WebAPI", "BeckMan.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeckMan.Del", "BeckMan.Del\BeckMan.Del.csproj", "{081E40D2-4760-4A95-9CA6-AD60BBD9A461}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{7BDBA68F-0F46-4BEB-8CA3-E0C79089A823}"
+	ProjectSection(SolutionItems) = preProject
+		docs\2017年贝克曼生命科学部评估系统需求文档.docx = docs\2017年贝克曼生命科学部评估系统需求文档.docx
+		docs\BeckMan.cdb = docs\BeckMan.cdb
+		docs\BeckMan.cdm = docs\BeckMan.cdm
+		docs\携手网B部评估系统Feature List.xlsx = docs\携手网B部评估系统Feature List.xlsx
+		docs\携手网B部评估系统开发外包协议.doc = docs\携手网B部评估系统开发外包协议.doc
+		规范说明.txt = 规范说明.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
